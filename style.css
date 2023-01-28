@@ -1,0 +1,41 @@
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+body {
+    margin: 0px;
+    font-family: "Roboto";
+}
+
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 800;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+.nav, .footer {
+    background-color: #1F2937;
+    color: #F9FAF8
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+}
