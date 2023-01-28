@@ -48,6 +48,7 @@ a {
     justify-content: center;
     padding: 50px;
     gap: 120px;
+    min-height: 300px;
 }
 
 .pepe {
@@ -75,4 +76,55 @@ button {
     font-weight: 700;
     border-radius: 8px;
     border: solid 2px #3882F6; 
+}
+
+.random {
+    color: black;
+    text-align: center;
+    padding: 30px;
+    min-height: 350px;
+}
+
+.card > a {
+    color: black;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+img {
+    border-radius: 8px;
+}
+
+.quote-container {
+    min-height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #E5E7EB;
+}
+
+.quote-text {
+    color: #1F2937;
+    font-style: italic;
+    font-size: 36px;
+    margin: 0px;
+}
+
+.quote {
+    max-width: 700px;
+    margin: 0px;
+}
+
+.author {
+    color: black;
+    font-weight: 700;
+    align-self: center;
+    margin-left: 400px;
+    margin-top: 0px;
 }
