@@ -92,6 +92,7 @@ button {
 .cards {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
     margin-top: 50px;
 }
@@ -127,4 +128,28 @@ img {
     align-self: center;
     margin-left: 400px;
     margin-top: 0px;
+}
+
+.call-to-action-container {
+    min-height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action {
+    display: flex;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 12px;
+    padding: 20px;
+    gap: 15px;
+    min-width: 800px;
+    justify-content: space-around;
+    color: white;
+}
+
+.sign-up {
+    border-radius: 12px;
+    border: solid 2px white;
 }
